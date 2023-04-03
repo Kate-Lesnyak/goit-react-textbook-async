@@ -1,8 +1,9 @@
 import { useDispatch } from 'react-redux';
 import { Button } from 'components/Button/Button';
-import { addTask } from 'redux/tasksSlice';
+import { addTask } from 'redux/operations';
 import css from './TaskForm.module.css';
 
+// * Добавляем код запуска операции добавления задачи при сабмите формы.
 export const TaskForm = () => {
   // Получаем ссылку на функцию отправки экшенов
   const dispatch = useDispatch();

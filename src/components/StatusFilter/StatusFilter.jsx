@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Button } from 'components/Button/Button';
 // Импортируем объект значений фильтра
 import { statusFilters } from 'redux/constants';
-import { getStatusFilter, setStatusFilter } from 'redux/filtersSlice';
+import { getStatusFilter } from 'redux/selectors';
+import { setStatusFilter } from 'redux/filtersSlice';
 import css from './StatusFilter.module.css';
 
 export const StatusFilter = () => {
