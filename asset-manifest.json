@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-textbook-async/static/css/main.5763847e.css",
+    "main.js": "/goit-react-textbook-async/static/js/main.0a4ffa9b.js",
+    "index.html": "/goit-react-textbook-async/index.html",
+    "main.5763847e.css.map": "/goit-react-textbook-async/static/css/main.5763847e.css.map",
+    "main.0a4ffa9b.js.map": "/goit-react-textbook-async/static/js/main.0a4ffa9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5763847e.css",
+    "static/js/main.0a4ffa9b.js"
+  ]
+}
